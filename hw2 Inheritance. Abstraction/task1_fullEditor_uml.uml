@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Pyton learning/Python Developer/Python Essential/2 less/HW/task1_editor.py</OriginalElement>
+  <nodes>
+    <node x="57.454346314215115" y="570.5028083968008">task1_editor.FullEditor</node>
+    <node x="355.6993496722511" y="623.254295754866">task1_editor.ProEditor</node>
+    <node x="-86.37330105025637" y="-14.588706219261383">object</node>
+    <node x="265.83868079406795" y="323.2156765357322">typing.Hashable</node>
+    <node x="295.08472125383867" y="449.9786389748674">task1_editor.Editor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="134.0" y="139.8043827549936" />
+      <point x="-69.5" y="0.0" />
+    </edge>
+    <edge source="task1_editor.ProEditor" target="task1_editor.Editor" relationship="REALIZATION">
+      <point x="-3.496722511044936E-4" y="-27.000295754865988" />
+      <point x="444.199" y="549.0" />
+      <point x="383.58500000000004" y="549.0" />
+      <point x="2.7874616131384755E-4" y="38.000361025132605" />
+    </edge>
+    <edge source="task1_editor.Editor" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="383.58472125383867" y="394.7156765357322" />
+      <point x="134.0" y="184.3043827549936" />
+    </edge>
+    <edge source="task1_editor.FullEditor" target="task1_editor.Editor" relationship="REALIZATION">
+      <point x="-3.4631421511477356E-4" y="-37.9998083968008" />
+      <point x="145.954" y="549.0" />
+      <point x="383.58500000000004" y="549.0" />
+      <point x="2.7874616131384755E-4" y="38.000361025132605" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7180925666199158" showDependencies="false" x="233.0" y="341.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

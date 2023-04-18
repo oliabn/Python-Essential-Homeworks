@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Pyton learning/Python Developer/Python Essential/2 less/HW/task3_5_dentalEmployee.py</OriginalElement>
+  <nodes>
+    <node x="190.92054144291308" y="337.1345525490698">task3_1_person.Person</node>
+    <node x="-137.51511428828064" y="-14.274337635601626">object</node>
+    <node x="251.77411106219068" y="605.6648401681798">task3_2_employee.Employee</node>
+    <node x="205.3754444614223" y="809.9922891840897">task3_5_dentalEmployee.DentalEmployee</node>
+    <node x="199.2303855151418" y="216.2545096016587">typing.Hashable</node>
+    <node x="-149.89902723649493" y="620.2019398644729">task3_4_schoolEmployee.SchoolEmployee</node>
+    <node x="461.45692618353775" y="311.29620576290813">task3_3_salary.Salary</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="task3_4_schoolEmployee.SchoolEmployee" target="task3_2_employee.Employee" relationship="REALIZATION">
+      <point x="170.5" y="18.462900303706874" />
+      <point x="-108.5" y="0.0" />
+    </edge>
+    <edge source="task3_4_schoolEmployee.SchoolEmployee" target="task3_3_salary.Salary" relationship="REALIZATION">
+      <point x="-15.0" y="38.0" />
+      <point x="5.6009727635050695" y="881.4922891840897" />
+      <point x="636.4569261835377" y="881.4922891840897" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="task3_2_employee.Employee" target="task3_1_person.Person" relationship="REALIZATION">
+      <point x="-79.35356961927761" y="-71.0" />
+      <point x="0.0" y="103.99999999999999" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="134.0" y="32.52884723726032" />
+      <point x="-69.5" y="0.0" />
+    </edge>
+    <edge source="task3_5_dentalEmployee.DentalEmployee" target="task3_4_schoolEmployee.SchoolEmployee" relationship="REALIZATION">
+      <point x="-170.5" y="0.0" />
+      <point x="20.60097276350507" y="836.9922891840897" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="task3_3_salary.Salary" target="object" relationship="REALIZATION">
+      <point x="-174.99992618353775" y="-2.0576290810225828E-4" />
+      <point x="388.421" y="426.296" />
+      <point x="388.421" y="310.0" />
+      <point x="296.0" y="310.0" />
+      <point x="296.0" y="287.755" />
+      <point x="134.00011428828066" y="77.02933763560162" />
+    </edge>
+    <edge source="task3_1_person.Person" target="object" relationship="REALIZATION">
+      <point x="4.585570869224398E-4" y="-103.99955254906979" />
+      <point x="280.921" y="310.0" />
+      <point x="296.0" y="310.0" />
+      <point x="296.0" y="287.755" />
+      <point x="134.00011428828066" y="77.02933763560162" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5474372955288986" showDependencies="false" x="341.0" y="443.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+

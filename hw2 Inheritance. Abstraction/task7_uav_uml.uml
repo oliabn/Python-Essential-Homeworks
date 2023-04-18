@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Pyton learning/Python Developer/Python Essential/2 less/HW/task7_4_UAV.py</OriginalElement>
+  <nodes>
+    <node x="-90.0" y="611.7805129376632">task7_1_vehicle.Vehicle</node>
+    <node x="-81.0" y="951.7805123793875">task7_4_UAV.UAV</node>
+    <node x="-22.0" y="-14.219487057642652">typing.Hashable</node>
+    <node x="-86.5" y="792.7805125281673">task7_2_aircraft.Aircraft</node>
+    <node x="-86.5" y="100.7805129402447">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-225.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="task7_4_UAV.UAV" target="task7_2_aircraft.Aircraft" relationship="REALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="task7_1_vehicle.Vehicle" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="225.0" />
+    </edge>
+    <edge source="task7_2_aircraft.Aircraft" target="task7_1_vehicle.Vehicle" relationship="REALIZATION">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.4774193548387097" showDependencies="false" x="57.5" y="527.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
